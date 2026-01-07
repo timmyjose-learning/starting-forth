@@ -17,3 +17,6 @@
 \ a (2a + 3) -> a a 2 * 3 + *
 
 : 2b5  ( a a -- result ) 2 * 3 + * ;
+
+\ (a - b) / c -> a b - c /
+\ So, not really possible to have a "point-free" form without stack manipulation operators
